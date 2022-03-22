@@ -7,4 +7,4 @@ select to_char(writedate + 9/24, 'HH24') as hour,
         from message
         group by to_char(writedate + 9/24, 'HH24')
         order by 1;
-ddd?
+
